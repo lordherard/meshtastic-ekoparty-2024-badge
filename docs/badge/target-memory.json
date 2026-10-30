@@ -1,0 +1,32 @@
+{
+  "source": "linked ESP32-C6 ELF debug information",
+  "types": {
+    "ActivityEvent": 16,
+    "BadgeActivity": 264,
+    "BadgeUI": 9128
+  },
+  "runtime_heap": null,
+  "elf_machine": "EM_RISCV",
+  "sections": [
+    {
+      "name": ".iram0.text",
+      "bytes": 103314
+    },
+    {
+      "name": ".dram0.data",
+      "bytes": 15616
+    },
+    {
+      "name": ".dram0.bss",
+      "bytes": 76168
+    },
+    {
+      "name": ".flash.text",
+      "bytes": 1534524
+    },
+    {
+      "name": ".flash.rodata",
+      "bytes": 286004
+    }
+  ]
+}

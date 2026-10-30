@@ -1,0 +1,4 @@
+#pragma once
+#define EKO_BADGE_VERSION "5.0.0-rc1"
+#define EKO_BUILD_UTC "261002T002257Z"
+#define EKO_SOURCE_ID "5538602671b6f3c0"

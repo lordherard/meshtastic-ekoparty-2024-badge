@@ -1,0 +1,29 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.{sh,[sS][hH]} text eol=lf
+
+# Preserve exact validated-source bytes recorded by build-identity.json.
+/boards/eko_badge_2024.json -text
+/src/mesh/RadioLibInterface.cpp -text
+/src/mesh/RF95Interface.cpp -text
+/src/platform/extra_variants/eko_badge_2024/BadgeActivity.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeAudio.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeAudioBackend.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeComposer.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeDestinationGuard.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeInbox.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeMessageSender.cpp -text
+/src/platform/extra_variants/eko_badge_2024/BadgeMessageSender.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeNotifications.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgePower.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeRfPower.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeSound.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeTools.inc -text
+/src/platform/extra_variants/eko_badge_2024/BadgeUtf8.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeUx.inc -text
+/src/platform/extra_variants/eko_badge_2024/variant.cpp -text
+/variants/esp32c6/eko_badge_2024/platformio.ini -text
+/variants/esp32c6/eko_badge_2024/variant.h -text
+/src/platform/extra_variants/eko_badge_2024/BadgeBuild.h -text

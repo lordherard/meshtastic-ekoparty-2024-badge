@@ -1,0 +1,94 @@
+{
+  "release": "EKOPARTY_RC1",
+  "version": "5.0.0-rc1",
+  "utc": "261002T002257Z",
+  "source_id": "5538602671b6f3c0",
+  "source_overlay_sha256": "5538602671b6f3c0ed39f7ecf4e918bdb33a0cd4dd393a813f81e83cd2d5fdc1",
+  "scope": "production overlay, excludes generated build identity and tests",
+  "sources": [
+    {
+      "path": "boards/eko_badge_2024.json",
+      "sha256": "eec3517bfdcfa7a77f686d7c3e8794c3df770626aebcc602493a74e3d9dbea3f"
+    },
+    {
+      "path": "src/mesh/RadioLibInterface.cpp",
+      "sha256": "f967d395caa80db1c7efd33ba137f6ae8f97c0ac8d1d81d87b597a22ccf5ab73"
+    },
+    {
+      "path": "src/mesh/RF95Interface.cpp",
+      "sha256": "07a97faa9666eb7d367014daeb9b8f6f80c8717c41b6660cd8ebfce13c0f742d"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeActivity.h",
+      "sha256": "21d34771f3572782039daf06a21a01e81ebe288cfc21a05350af65beef30c7f8"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeAudio.h",
+      "sha256": "7054ed152614fec6c882c0ccd00d7a6dd346debff0ca7af2574640f221d2e791"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeAudioBackend.h",
+      "sha256": "712dc1d821545ed4ee053e7911e5747038636d375dfbef0f4475f575f86e0b23"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeComposer.h",
+      "sha256": "d79d4e0c603937d167f2c33c4f20e98b4fc4d4c5bebb01681598f51edd5b31db"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeDestinationGuard.h",
+      "sha256": "8346cef29cca48403bde2a62926727466ab39c063e163d4b5863969ce9f1e19f"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeInbox.h",
+      "sha256": "f7e06e3f8709f4582f9541e9be43915f3d2b69a2ced57ea22816897d88fa501e"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeMessageSender.cpp",
+      "sha256": "6862ef6859c71783a564300fd1e7aad5f003a81914e6086e43b315a92ede0c98"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeMessageSender.h",
+      "sha256": "d186686b3777babee9bcd3f63068cd3c8d61aef082ad0e6f913836ee0c258eb2"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeNotifications.h",
+      "sha256": "aecf14b7fba0193b84472a7108736fee55669e7b190aeb96e2b77ff9875df038"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgePower.h",
+      "sha256": "60ffd98ccb0f29a9901020ffd1a564c2b9707866d9fac45375b600907c6b69d4"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeRfPower.h",
+      "sha256": "09f583ab19b44ea3641448a160df0dd1cee8ba8534cb83b92c11cb155c30e706"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeSound.h",
+      "sha256": "647a6791c6cb3245fbf99160158b4be93f72d8af074355f4b245b9d22385c961"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeTools.inc",
+      "sha256": "0c32450fbad085529323961bac4c0a06d85599d1df1a84213653df4b97eeb143"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeUtf8.h",
+      "sha256": "898df72ed4117338707198ebc7e5ad80f1b317f3a1012c336b82333063d62e2a"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/BadgeUx.inc",
+      "sha256": "a2fdd778a57fe3f0805361691cdb499cfe90c73e6d1fa69b9e5a530a981893fe"
+    },
+    {
+      "path": "src/platform/extra_variants/eko_badge_2024/variant.cpp",
+      "sha256": "a47671574188861f3c244f332d7af970c0b797051a03a48bf72041966adaa487"
+    },
+    {
+      "path": "variants/esp32c6/eko_badge_2024/platformio.ini",
+      "sha256": "831dbe675ed19506bfcbfa829d0707930efe81903963da139d4d804d9835d3ec"
+    },
+    {
+      "path": "variants/esp32c6/eko_badge_2024/variant.h",
+      "sha256": "04cf344691f6e2d950f98b4cdd94f5f1aa79b67f9dc489c1d5b96f86d17ed812"
+    }
+  ]
+}
